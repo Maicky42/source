@@ -1,0 +1,156 @@
+@media screen and (max-width: 976px) {
+    header .menu-t {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        display: none;
+    }    
+    .container .all-card {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: auto;
+        margin: 10% 0;
+        gap: 13px;
+    }
+
+
+    .all-card .card {
+        width: 100%;
+        height: auto;
+        margin-bottom: 5%;
+    }
+
+    .all-card .card .conteudo a{
+        font-size: 14px;
+        color: gray;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .all-card .card .conteudo:hover a{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .all-card .card .c-image {
+        height: auto;
+        overflow: hidden;
+        background-color: whitesmoke;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+@media screen and (max-width: 1176px) {
+    main .container {
+        width: 98%;
+        height: auto;
+        background-color: white;
+    }
+
+    main .contain {
+        display: none;
+    }
+
+    main {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        padding: 20px 20px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 550px) {
+    .container .all-box {
+        display: flex;
+        flex-direction: column;
+        gap: 5%;
+        margin: 10% 0;
+    }    
+
+    .container .all-box .box {
+        width: 100%;
+        height: auto;
+        background-color: white;
+        padding-right: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos do footer */
+footer {
+    background-color: var(--primary);
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container-f {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-section h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.footer-section p, .footer-section ul {
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .footer-section {
+        margin-bottom: 20px;
+    }
+}
